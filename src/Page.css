@@ -1,0 +1,73 @@
+:root {
+  --color0: #088f05;
+  --color1: #29bf12;
+  --color2: #abff4f;
+  --color3: #08bdbd;
+  --color4: #f21b3f;
+  --color5: #ff9914;
+}
+
+hr {
+  color: var(--color1);
+  max-width: 90vw;
+  text-align: left;
+  margin-left: 0;
+}
+
+h5 {
+  color: var(--color0)
+}
+
+.Background {
+  min-width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+.bg1 {
+  background-color: var(--color1);
+}
+
+.bg2 {
+  background-color: var(--color2);
+}
+
+.bg3 {
+  background-color: var(--color3);
+}
+
+.bg4 {
+  background-color: var(--color4);
+}
+
+.bg5 {
+  background-color: var(--color5);
+}
+
+.bgW {
+  background-color: white;
+}
+
+.LeftJustify {
+  text-align: left;
+  align-items: flex-start;
+  min-width: 100vw;
+  padding-left: 5vw;
+}
+
+.RowFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.uct {
+  width: 1050px;
+  height: 600px;
+  max-width: 80vw;
+  max-height: 80vh;
+}

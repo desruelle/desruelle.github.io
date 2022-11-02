@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #29bf12;
+    color: #ffffff;
+    min-height: 5vh;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: large;
+}
+
+a {
+    font-size: 1.17em;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+a:hover {
+    color: #d9d9d9;
+}
+
+.EvenSpace {
+    justify-content: space-between;
+}
