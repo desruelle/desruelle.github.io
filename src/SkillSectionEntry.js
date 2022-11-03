@@ -8,8 +8,7 @@ class SkillSectionEntry extends React.Component {
         <ul>
           {this.props.skills.map(skill => (
               <li>{skill}</li>
-          ))
-          }
+          ))}
         </ul>
     </div>
     );

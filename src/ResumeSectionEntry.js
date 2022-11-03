@@ -9,8 +9,7 @@ class ResumeSectionEntry extends React.Component {
         <ul>
           {this.props.description.map(item => (
               <li>{item}</li>
-          ))
-          }
+          ))}
         </ul>
     </div>
     );

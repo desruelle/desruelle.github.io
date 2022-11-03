@@ -55,14 +55,15 @@ h5 {
 .LeftJustify {
   text-align: left;
   align-items: flex-start;
-  min-width: 100vw;
+  width: 100vw;
   padding-left: 5vw;
 }
 
 .RowFlex {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width:70vw;
 }
 
 .uct {
