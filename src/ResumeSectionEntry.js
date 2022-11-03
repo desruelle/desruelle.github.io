@@ -6,7 +6,12 @@ class ResumeSectionEntry extends React.Component {
     <div className='ResumeItem'>
         <h3>{this.props.company} - {this.props.position}</h3>
         <h5>{this.props.fromdate} - {this.props.todate}</h5>
-        <p>{this.props.description}</p>
+        <ul>
+          {this.props.description.map(item => (
+              <li>{item}</li>
+          ))
+          }
+        </ul>
     </div>
     );
   }

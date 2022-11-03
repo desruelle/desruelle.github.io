@@ -14,17 +14,17 @@ class ResumePage extends React.Component {
                     <ResumeSectionHeader title="Work Experience"/>
                     <ResumeSectionEntry position="Software Development Intern" company="Amazon" 
                     fromdate="June 2021" todate="August 2021" 
-                    description=""/>
+                    description={["a", "b"]}/>
                     <ResumeSectionEntry position="SWE & Testing Intern" company="Phenix Scheduler" 
                     fromdate="April 2020" todate="Septmeber 2020" 
-                    description=""/>
+                    description={["c", "d"]}/>
                     <ResumeSectionEntry position="Software Engineering Intern" company="Advanti" 
                     fromdate="July 2019" todate="November 2019" 
-                    description=""/>
+                    description={["e", "f", "g"]}/>
                     <ResumeSectionHeader title="Education"/>
                     <ResumeSectionEntry position="Honours Bachelor of Science" company="University of Toronto" 
                     fromdate="September 2018" todate="April 2022" 
-                    description=""/>
+                    description={["E"]}/>
                     <ResumeSectionHeader title="Skills"/>
                     <div className="RowFlex">
                         <SkillSectionEntry category="Tools & Frameworks" skills={["Android", "SQL", "Node.JS"]}/>
