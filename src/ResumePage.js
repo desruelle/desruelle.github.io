@@ -4,6 +4,7 @@ import ResumeSectionEntry from './ResumeSectionEntry';
 import SkillSectionEntry from './SkillSectionEntry';
 import React from 'react';
 
+import employmentData from './data/employment.json'
 
 class ResumePage extends React.Component {
     render () {
@@ -12,7 +13,11 @@ class ResumePage extends React.Component {
                 <h1>Resume</h1>
                 <div className="LeftJustify">
                     <ResumeSectionHeader title="Work Experience"/>
-                    <ResumeSectionEntry position="Software Development Intern" company="Amazon" 
+                    {employmentData.map(item => (
+                        <ResumeSectionEntry position={item.position} company={item.company}
+                        fromdate={item.fromdate} todate={item.todate} description={item.description}/>
+                    ))}
+                    {/* <ResumeSectionEntry position="Software Development Intern" company="Amazon" 
                     fromdate="June 2021" todate="August 2021" 
                     description={["a", "b"]}/>
                     <ResumeSectionEntry position="SWE & Testing Intern" company="Phenix Scheduler" 
@@ -20,7 +25,7 @@ class ResumePage extends React.Component {
                     description={["c", "d"]}/>
                     <ResumeSectionEntry position="Software Engineering Intern" company="Advanti" 
                     fromdate="July 2019" todate="November 2019" 
-                    description={["e", "f", "g"]}/>
+                    description={["e", "f", "g"]}/> */}
                     <ResumeSectionHeader title="Education"/>
                     <ResumeSectionEntry position="Honours Bachelor of Science" company="University of Toronto" 
                     fromdate="September 2018" todate="April 2022" 
