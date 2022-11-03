@@ -6,9 +6,21 @@
         "fromdate":"September 2018",
         "todate":"April 2022",
         "description": [
-            "x",
-            "y",
-            "z"
+            "Double Majored in Computer Science & Linguistics",
+            "Graduated with High Distinction (GPA: 3.79)",
+            {
+                "item": "Relevant courses include:",
+                "subitems": [
+                "Formal Methods in Software Design",
+                "Design of Interactive Computational Media",
+                "Human-Computer Interaction",
+                "Programming on the Web",
+                "Introduction to Databases",
+                "Introduction to Machine Learning",
+                "Computational Linguistics",
+                "Syntactic & Semantic Theory"
+                ]
+            }
         ]
     }
 ]

@@ -5,7 +5,12 @@
         "skills": [
             "Android",
             "SQL",
-            "Node.JS"
+            "Node.JS",
+            "React",
+            "Vue.JS",
+            "jQuery",
+            "jUnit",
+            "Cypress"
         ]
     },
     {
@@ -14,7 +19,12 @@
         "skills": [
             "Python",
             "Java",
-            "C"
+            "Kotlin",
+            "C",
+            "C++",
+            "JavaScript",
+            "HTML",
+            "CSS"
         ]
     },
     {

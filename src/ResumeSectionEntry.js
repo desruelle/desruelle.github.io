@@ -8,7 +8,21 @@ class ResumeSectionEntry extends React.Component {
         <h5>{this.props.fromdate} - {this.props.todate}</h5>
         <ul>
           {this.props.description.map(item => (
-              <li>{item}</li>
+            <li>
+              {typeof item == "string" &&
+                item
+              }
+              {typeof item == "object" &&
+                item.item
+              }
+              {typeof item == "object" &&
+                <ul>
+                {item.subitems.map(subitem => (
+                  <li>{subitem}</li>
+                ))}
+                </ul>
+              }
+            </li>
           ))}
         </ul>
     </div>

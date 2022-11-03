@@ -6,8 +6,8 @@
         "fromdate":"June 2021",
         "todate":"August 2021",
         "description": [
-            "A",
-            "B"
+            "Developed user support features for the Amazon Flex Android application in Kotlin.",
+            "Created design documents and identified user priorities."
         ]
     },
     {
@@ -17,8 +17,8 @@
         "fromdate":"April 2020",
         "todate":"September 2020",
         "description": [
-            "C",
-            "D"
+            "Developed for the frontend and backend of a Vue.JS application.",
+            "Built unit tests and integration tests using Cypress."
         ]
     },
     {
@@ -28,9 +28,8 @@
         "fromdate":"July 2019",
         "todate":"November 2019",
         "description": [
-            "E",
-            "F",
-            "G"
+            "Built tools in Python able to detect anomalies in financial data.",
+            "Developed diagnostic tools to maintain data integrity in a SQL database."
         ]
     }
 ]
