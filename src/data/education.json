@@ -1,0 +1,14 @@
+[
+    {
+        "id":0,
+        "company":"University of Toronto",
+        "position":"Honours Bachelor of Science",
+        "fromdate":"September 2018",
+        "todate":"April 2022",
+        "description": [
+            "x",
+            "y",
+            "z"
+        ]
+    }
+]
