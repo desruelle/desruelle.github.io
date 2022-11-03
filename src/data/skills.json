@@ -1,0 +1,29 @@
+[
+    {
+        "id":0,
+        "category":"Tools & Frameworks",
+        "skills": [
+            "Android",
+            "SQL",
+            "Node.JS"
+        ]
+    },
+    {
+        "id":1,
+        "category":"Programming Languages",
+        "skills": [
+            "Python",
+            "Java",
+            "C"
+        ]
+    },
+    {
+        "id":2,
+        "category":"Natural Languages",
+        "skills": [
+            "English",
+            "French"
+        ]
+    }
+
+]

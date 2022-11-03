@@ -6,6 +6,7 @@ import React from 'react';
 
 import employmentData from './data/employment.json'
 import educationData from './data/education.json'
+import skillData from './data/skills.json'
 
 class ResumePage extends React.Component {
     render () {
@@ -25,9 +26,9 @@ class ResumePage extends React.Component {
                     ))}
                     <ResumeSectionHeader title="Skills"/>
                     <div className="RowFlex">
-                        <SkillSectionEntry category="Tools & Frameworks" skills={["Android", "SQL", "Node.JS"]}/>
-                        <SkillSectionEntry category="Programming Languages" skills={["Python", "Java", "C"]}/>
-                        <SkillSectionEntry category="Natural Languages" skills={["English", "French"]}/>
+                        {skillData.map(item => (
+                            <SkillSectionEntry category={item.category} skills={item.skills}/>
+                        ))}
                     </div>
                 </div>
             </div>
