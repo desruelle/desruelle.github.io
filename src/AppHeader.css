@@ -1,9 +1,11 @@
+@import "palette.css";
+
 .Header {
     display: flex;
     position: sticky;
     top: 0;
-    background-color: #29bf12;
-    color: #ffffff;
+    background-color: var(--colorPri);
+    color: var(--colorLight);
     min-height: 5vh;
     align-items: center;
     padding-left: 5vw;
@@ -18,14 +20,14 @@
 
 a {
     font-size: 1.17em;
-    color: #ffffff;
+    color: var(--colorLight);
     text-decoration: none;
     margin-left: 1vw;
     margin-right: 1vw;
 }
 
 a:hover {
-    color: #d9d9d9;
+    color: var(--colorAcc);
 }
 
 .EvenSpace {

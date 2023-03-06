@@ -1,21 +1,14 @@
-:root {
-  --color0: #088f05;
-  --color1: #29bf12;
-  --color2: #abff4f;
-  --color3: #08bdbd;
-  --color4: #f21b3f;
-  --color5: #ff9914;
-}
+@import "palette.css";
 
 hr {
-  color: var(--color1);
+  color: var(--colorPri);
   max-width: 90vw;
   text-align: left;
   margin-left: 0;
 }
 
 h5 {
-  color: var(--color0)
+  color: var(--colorSec)
 }
 
 .Background {
@@ -29,27 +22,19 @@ h5 {
 }
 
 .bg1 {
-  background-color: var(--color1);
+  background-color: var(--colorPri);
 }
 
 .bg2 {
-  background-color: var(--color2);
+  background-color: var(--colorSec);
 }
 
 .bg3 {
-  background-color: var(--color3);
-}
-
-.bg4 {
-  background-color: var(--color4);
-}
-
-.bg5 {
-  background-color: var(--color5);
+  background-color: var(--colorAcc);
 }
 
 .bgW {
-  background-color: white;
+  background-color: var(--colorLight);
 }
 
 .LeftJustify {
