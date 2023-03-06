@@ -11,6 +11,11 @@
     font-size: large;
 }
 
+.HeaderSection {
+    width: 30vw;
+    text-align: center;
+}
+
 a {
     font-size: 1.17em;
     color: #ffffff;
