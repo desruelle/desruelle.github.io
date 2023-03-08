@@ -28,9 +28,9 @@ class ResumePage extends React.Component {
                             <ResumeSectionEntry position={item.position} company={item.company}
                             fromdate={item.fromdate} todate={item.todate} description={item.description}/>
                         ))}
-                        <div className="RowFlex SpaceAround">
+                        <div className="LongWidth">
                         {educationMiscData.map(item => (
-                            <SkillSectionEntry category={item.category} skills={item.skills}/>
+                            <SkillSectionEntry category={item.category} skills={item.skills} columns={"TwoColumn"}/>
                         ))}
                         </div>
                     </div>

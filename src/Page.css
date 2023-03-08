@@ -97,6 +97,6 @@ h5 {
   -moz-columns: 2;
 }
 
-.HalfWidth {
-  width: 50vw;
+.LongWidth {
+  width: 60vw;
 }
