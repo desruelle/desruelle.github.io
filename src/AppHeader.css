@@ -4,7 +4,7 @@
     display: flex;
     position: sticky;
     top: 0;
-    background-color: var(--colorPri);
+    background-color: var(--colorSec);
     color: var(--colorLight);
     min-height: 5vh;
     align-items: center;

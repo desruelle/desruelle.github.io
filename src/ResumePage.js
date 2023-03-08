@@ -12,7 +12,7 @@ import skillData from './data/skills.json'
 class ResumePage extends React.Component {
     render () {
         return (
-            <div className="Background bg2">
+            <div className="Background bg1">
                 {/* <h1>Resume</h1> */}
                 <div className="LeftJustify">
                     <ResumeSectionHeader title="Work Experience"/>
