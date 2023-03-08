@@ -7,9 +7,9 @@ hr {
   margin-left: 0;
 }
 
-/* h3 {
-  margin: 5px;
-} */
+h2 {
+  padding-left: 5vw;
+}
 
 h5 {
   color: var(--colorSec);
@@ -41,6 +41,14 @@ h5 {
 
 .bgW {
   background-color: var(--colorLight);
+}
+
+.ResumeSection {
+  width: 90vw;
+  border-radius: 20px;
+  border-color: var(--colorSec);
+  border-style: solid;
+  border-width: medium;
 }
 
 .LeftJustify {
