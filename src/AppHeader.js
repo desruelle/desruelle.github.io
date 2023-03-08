@@ -6,7 +6,7 @@ class AppHeader extends React.Component {
     return (
       <div className="Header EvenSpace">
           <div id="HeadLf">
-              <h2>L.P.M. Desruelle</h2>
+              <h2>Leo Desruelle</h2>
           </div>
           <div id="HeadRg">
               <a href="#resume">Resume</a>

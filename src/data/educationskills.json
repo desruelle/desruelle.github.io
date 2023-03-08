@@ -1,0 +1,25 @@
+[
+    {
+        "id":0,
+        "category":"Awards",
+        "skills": [
+            "Mrs. F.N.G. Starr Scholarship",
+            "Victoria College Regents Scholarship"
+        ]
+    },
+    {
+        "id":1,
+        "category":"Courses",
+        "skills": [
+            "Formal Methods in Software Design",
+            "Design of Interactive Computational Media",
+            "Human-Computer Interaction",
+            "Programming on the Web",
+            "Introduction to Databases",
+            "Introduction to Machine Learning",
+            "Computational Linguistics",
+            "Syntactic & Semantic Theory"
+        ]
+    }
+
+]

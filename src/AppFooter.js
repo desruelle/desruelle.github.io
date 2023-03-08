@@ -6,15 +6,14 @@ class AppHeader extends React.Component {
     return (
       <div className="Header EvenSpace">
           <div className = "HeaderSection" id="FootLf">
-            test
           </div>
           <div className = "HeaderSection" id="FootMd">
             Leo Desruelle 2023
           </div>
           <div className = "HeaderSection" id="HeadRg">
-              <a href="#resume">Email</a>
-              <a href="#uct">LinkedIn</a>
-              <a href="#resume">GitHub</a>
+              <a href="mailto:leo.pm.desruelle@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/leo-pm-desruelle/">LinkedIn</a>
+              <a href="https://github.com/desruelle">GitHub</a>
           </div>
       </div>
     );

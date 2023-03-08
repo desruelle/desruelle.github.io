@@ -3,24 +3,13 @@
         "id":0,
         "company":"University of Toronto",
         "position":"Honours Bachelor of Science",
-        "fromdate":"September 2018",
-        "todate":"April 2022",
+        "fromdate":"Sep 2018",
+        "todate":"Apr 2022",
         "description": [
-            "Double Majored in Computer Science & Linguistics",
-            "Graduated with High Distinction (GPA: 3.79)",
-            {
-                "item": "Relevant courses include:",
-                "subitems": [
-                "Formal Methods in Software Design",
-                "Design of Interactive Computational Media",
-                "Human-Computer Interaction",
-                "Programming on the Web",
-                "Introduction to Databases",
-                "Introduction to Machine Learning",
-                "Computational Linguistics",
-                "Syntactic & Semantic Theory"
-                ]
-            }
+            "Computer Science Major",
+            "Linguistics Major",
+            "Graduated with High Distinction",
+            "GPA: 3.79"
         ]
     }
 ]
