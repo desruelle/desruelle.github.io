@@ -1,4 +1,4 @@
-import tag from './uct_website2.png';
+import tag from './images/uct_website2.png';
 import './Page.css';
 import React from 'react';
 

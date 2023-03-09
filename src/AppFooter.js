@@ -1,3 +1,6 @@
+import logo_li from './images/logo_li.png';
+import logo_gh from './images/logo_gh.png';
+
 import './AppHeader.css';
 import React from 'react';
 
@@ -12,8 +15,12 @@ class AppHeader extends React.Component {
           </div>
           <div className = "HeaderSection" id="HeadRg">
               <a href="mailto:leo.pm.desruelle@gmail.com">Email</a>
-              <a href="https://www.linkedin.com/in/leo-pm-desruelle/">LinkedIn</a>
-              <a href="https://github.com/desruelle">GitHub</a>
+              <a href="https://www.linkedin.com/in/leo-pm-desruelle/">
+                <img src={logo_li} className="Logo" alt="LinkedIn link" />
+              </a>
+              <a href="https://github.com/desruelle">
+                <img src={logo_gh} className="Logo" alt="GitHub link" />
+              </a>
           </div>
       </div>
     );
