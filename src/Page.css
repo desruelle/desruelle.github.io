@@ -111,7 +111,11 @@ h5 {
 }
 
 .Logo {
-  width: 32px;
-  height: 32px;
+  max-width: 32px;
+  max-height: 32px;
   padding-top: 5px;
+}
+
+.LogoPadding {
+  padding-bottom: 5px;
 }

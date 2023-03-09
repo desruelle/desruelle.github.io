@@ -1,3 +1,4 @@
+import logo_em from './images/logo_em.png';
 import logo_li from './images/logo_li.png';
 import logo_gh from './images/logo_gh.png';
 
@@ -14,7 +15,9 @@ class AppHeader extends React.Component {
             Leo Desruelle 2023
           </div>
           <div className = "HeaderSection" id="HeadRg">
-              <a href="mailto:leo.pm.desruelle@gmail.com">Email</a>
+              <a href="mailto:leo.pm.desruelle@gmail.com">
+                <img src={logo_em} className="Logo LogoPadding" alt="E-mail mailto" />
+              </a>
               <a href="https://www.linkedin.com/in/leo-pm-desruelle/">
                 <img src={logo_li} className="Logo" alt="LinkedIn link" />
               </a>
