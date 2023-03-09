@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.481d818c.css",
-    "main.js": "/static/js/main.8929aa7f.js",
+    "main.css": "/static/css/main.a316c05c.css",
+    "main.js": "/static/js/main.1acd3532.js",
     "static/media/uct_website2.png": "/static/media/uct_website2.dfef1952080b990127d3.png",
     "index.html": "/index.html",
-    "main.481d818c.css.map": "/static/css/main.481d818c.css.map",
-    "main.8929aa7f.js.map": "/static/js/main.8929aa7f.js.map"
+    "main.a316c05c.css.map": "/static/css/main.a316c05c.css.map",
+    "main.1acd3532.js.map": "/static/js/main.1acd3532.js.map"
   },
   "entrypoints": [
-    "static/css/main.481d818c.css",
-    "static/js/main.8929aa7f.js"
+    "static/css/main.a316c05c.css",
+    "static/js/main.1acd3532.js"
   ]
 }
