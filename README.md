@@ -1,2 +1,2 @@
 # desruelle.github.io
-L.P.M. Desruelle's personal site
+Leo Desruelle's personal site
